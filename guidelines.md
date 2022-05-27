@@ -36,6 +36,29 @@ When adding a template variable to a dashboard, describe it in the dashboard des
 
 ## Groups
 
-Widget grouping allows to nicely group related widgets together, with a nice header color coded header. It is recommended to group related widgets together (even without a header), as that will affect how those widgets are displayed in low and high density modes.
+Widget grouping allows to nicely group related widgets together, with a nice header color coded header. It is recommended to always group related widgets together (even without a header), and even to always add widgets to a group, even if they are the only widget in the group, as [that will affect how those widgets are displayed in low and high density modes](#high-density-mode).
 
 ![Example of a group in a dashboard](/assets/img/groups.png)
+
+## Column Layout
+
+The recommended "Dashboards" layout is a 12-column layout, where you can place and resize widgets.
+
+![12 column layout](/assets/img/12_column.png)
+
+### High Density Mode
+
+When using Datadog in large screens, Datadog activates the "High Density Mode". This mode displays group widgets in a dashboard side-by-side for increased widget density.
+
+![High density mode](/assets/img/high_density_mode_example.png)
+
+When activated, a new button appears in the top right corner of the dashboard, that allows to manually deactivate it:
+
+![High density mode button](/assets/img/high_density_mode.png)
+
+This mode basically duplicates the layout into a 2 x 12 column grid, but not a 24 column grid. This means that the widget maximum width continues to be 12 column.
+
+### Widget recommended minimum width
+
+* Timeseries widgets should be at least 4 columns wide in order not to appear squashed on smaller displays.
+* Stream widgets (like logs) should be at least 6 columns wide (half the dashboard width) for readability. 
