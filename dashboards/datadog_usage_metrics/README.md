@@ -3,7 +3,7 @@
 This dashboard provides an overview of the different usage metrics for Datadog. These are usage metrics, not billing metrics, and they do not correlate 100% to billing. These should only be used as a proxy to identify trends.
 Those metrics can also be used to identify the biggest consumers with a selected tag.
 
-![Screenshot of the Datadog Usage Dashboard](/img/datadog_usage_metrics.png)
+![Screenshot of the Datadog Usage Dashboard](./img/datadog_usage_metrics.png)
 
 Credits to [Nicolas Narbais](https://github.com/nxnarbais), who created the first version of this dashboard.
 
