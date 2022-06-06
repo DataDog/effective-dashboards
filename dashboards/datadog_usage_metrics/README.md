@@ -17,9 +17,9 @@ For billing information, read the official documentation on [Datadog billing](ht
 
 With the Datadog Usage Metrics dashboard template variables you are able to select the usage coming only from one environment, service and/or team. 
 
-The `service` and `env` variables correspond to the `service` and `env` tags, part of [unified service tagging](https://docs.datadoghq.com/getting_started/tagging/unified_service_tagging/).
+The `$service` and `$env` variables correspond to the `service` and `env` tags, part of [unified service tagging](https://docs.datadoghq.com/getting_started/tagging/unified_service_tagging/).
 
-The `team` tag is not a Datadog reserved tag, but it is recommended to split usage per team. If your organization uses a different tag to identify the team owning a particular metric, edit the dashboard after importing.
+The `$team` variable is not a Datadog reserved tag, but it is recommended to split usage per team. If your organization uses a different tag to identify the team owning a particular metric, edit the dashboard after importing.
 
 # Additional resources
 
