@@ -1,7 +1,7 @@
 # Datadog Tagging Analytics
 
 This dashboard provides a high level overview of the tag consistency in infrastructure, logs, application traces and Datadog resources such as Synthetics, RUM or Monitors. These are critical for multiple use cases: 
-* connect different Datadog products to enhance correlatio of metrics and events, 
+* connect different Datadog products to enhance correlation of metrics and events, 
 * ease discoverability on any context or business related aggregation (`team`, `business_unit`, `owner`)
 * allocate cost and attribute usage
 
