@@ -19,7 +19,7 @@ For more tagging information, read the official documentation on [Datadog Taggin
 
 With the Datadog Tagging Analytics dashboard template variables you are able to select the usage coming only from one environment, service, team and/or cost center. 
 
-* The `$env` and `service` variables correspond to the `env` and `service` tags, part of [unified service tagging](https://docs.datadoghq.com/getting_started/tagging/unified_service_tagging/).
+* The `$env` and `$service` variables correspond to the `env` and `service` tags, part of [unified service tagging](https://docs.datadoghq.com/getting_started/tagging/unified_service_tagging/).
 * The `$team` and `$at_team` variables correspond to the `team` tag of the infra, logs, application traces and rum events. This is not a reserved tag, so you can change it to your own needs: `squad`, `owner`,...
 * The `$cost_center` and `$at_cost_center` variables correspond to the `cost_center` tag of the infra, logs, application traces and rum events. Like `team` you can adapt it to your own usage: `business_unit`, `department` or `vertical`.
 
