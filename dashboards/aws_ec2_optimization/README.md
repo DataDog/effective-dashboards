@@ -7,7 +7,7 @@ EC2. With such a dashboard, you'll be able to know:
 - The instance performances and their autoscaling.
 - The host performance.
 
-![Datadog Cloud Optimization for AWS EC2](./img/datadog_cloud_optimization-ec2.png)
+![Datadog Cloud Optimization for AWS EC2](./img/aws_ec2_optimization.png)
 
 Credits to [Shawn Potts](https://github.com/spottsdd), who created the first version of this dashboard.
 
