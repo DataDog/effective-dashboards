@@ -23,12 +23,12 @@ If you want to set up this dashboard, you can import the json file `datadog_clou
 With the __Datadog Cloud Optimization - AWS EC2__ dashboard template variables, you are able to select the usage coming only from an AWS account, availability zone, enviroment, instance type, service, team, and host.
 
 - `$aws_account`, the account id.
-- `availability-zone`, e.g. `us-east-1a` or `us-east-1b`
-- `env`, e.g. `dev`, `demo`, or `prod`
-- `instance-type`, e.g. `m5.xlarge` or `t1.micro`
-- `service`, it's part of the [unified service tagging](https://docs.datadoghq.com/getting_started/tagging/unified_service_tagging/) (with `env`)
-- `team`, tells you who own the instance.
-- `host`, IP addresses and/or the instance id.
+- `$availability-zone`, e.g. `us-east-1a` or `us-east-1b`
+- `$env`, e.g. `dev`, `demo`, or `prod`
+- `$instance-type`, e.g. `m5.xlarge` or `t1.micro`
+- `$service`, it's part of the [unified service tagging](https://docs.datadoghq.com/getting_started/tagging/unified_service_tagging/) (with `env`)
+- `$team`, tells you who own the instance.
+- `$host`, IP addresses and/or the instance id.
 
 # Additional resources
 
