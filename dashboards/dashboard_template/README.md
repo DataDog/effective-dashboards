@@ -1,6 +1,6 @@
 # \<Dashboard Title\>
 
-In this first section describe the dashboard, including its goals, and add a screnshot of the dashboard.
+In this first section describe the dashboard, including its goals, and add a screenshot of the dashboard.
 
 ![Replace with the description of the screenshot](/img/screenshot.png)
 
