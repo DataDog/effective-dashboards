@@ -1,6 +1,6 @@
 {
     "title": "Cloud Optimization - AWS EC2",
-    "description": "### Purpose:\nThis dashboard has been designed to help evaluate AWS EC2 usage for potential optimization.\n\n### Approach:\nOptimizing EC2 usage can be a complex process of performance tests and a good understanding of how your instances are billed. This dashboard can be helpful to identify potential areas for improvement.\n\nThese widgets focus on CPU and memory utilization of EC2 instances. The metrics are grouped by the instance type, host, and autoscaling group. This allows for comparison of resource usage or what is **not** being used.\n\n### Use:\nTemplate variables at the top of the dashboard can be used to filter results to a specific AWS account, region, etc.\nUnless stated in the title, widgets will use the global time from the time picker. It's best to look at this data over longer periods of time (2+ days) to get an idea of performance over time rather than how an instance is performing right now.\n\n### Additional resources:\n* [AWS: Instance types](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/instance-types.html)\n* [AWS: Optimizing your cost with Rightsizing Recommendations](https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/ce-rightsizing.html)\n* [Blog: How to find an optimal EC2 configuration in 5 steps](https://www.concurrencylabs.com/blog/5-steps-for-finding-optimal-ec2-infrastructure/)",
+    "description": "### Purpose:\nThis dashboard has been designed to help evaluate AWS EC2 usage for potential optimization.\n\n### Approach:\nOptimizing EC2 usage can be a complex process of performance tests and a good understanding of how your instances are billed. This dashboard can be helpful to identify potential areas for improvement.\n\nThese widgets focus on CPU and memory utilization of EC2 instances. The metrics are grouped by the instance type, host, and autoscaling group. This allows for comparison of resource usage or what is **not** being used.\n\n### Use:\nTemplate variables at the top of the dashboard can be used to filter results to a specific AWS account, region, etc.\nUnless stated in the title, widgets will use the global time from the time picker. It's best to look at this data over longer periods of time (2+ days) to get an idea of performance over time rather than how an instance is performing right now.\n\n### Additional resources:\n* [AWS: Instance types](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/instance-types.html)\n* [AWS: Optimizing your cost with Rightsizing Recommendations](https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/ce-rightsizing.html)\n* [Blog: How to find an optimal EC2 configuration in 5 steps](https://www.concurrencylabs.com/blog/5-steps-for-finding-optimal-ec2-infrastructure/)\n\n## Disclaimer\n\nThis is a community contributed dashboard and not supported by Datadog. For any change request or issues, follow our [contributing guidelines](https://github.com/DataDog/effective-dashboards/blob/main/CONTRIBUTING.md)",
     "widgets": [
         {
             "id": 7637912971219520,
@@ -793,13 +793,13 @@
                                             "conditional_formats": [
                                                 {
                                                     "palette": "red_on_white",
-                                                    "value": 30,
-                                                    "comparator": "<="
+                                                    "comparator": "<=",
+                                                    "value": 30
                                                 },
                                                 {
                                                     "palette": "red_on_white",
-                                                    "value": 90,
-                                                    "comparator": ">="
+                                                    "comparator": ">=",
+                                                    "value": 90
                                                 }
                                             ],
                                             "limit": {
@@ -1434,5 +1434,5 @@
     "is_read_only": false,
     "notify_list": [],
     "reflow_type": "fixed",
-    "id": "pz5-tny-69c"
+    "id": "8cf-8sp-28c"
 }
