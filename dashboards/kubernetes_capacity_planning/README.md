@@ -1,6 +1,6 @@
 # Kubernetes Capacity Planning
 
-The goal of this dashboard is to identify clusters with the biggest waste of resources related to kubernetes miscronfiguration. The second objective is to then highlight the biggest offenders to drive change.
+The goal of this dashboard is to identify clusters with the biggest waste of resources related to kubernetes misconfiguration. The second objective is to then highlight the biggest offenders to drive change.
 
 This dashboard highlights the biggest discrepancies between CPU and Mem utilization vs CPU and Mem requests.
 
@@ -8,7 +8,7 @@ This dashboard highlights the biggest discrepancies between CPU and Mem utilizat
 
 # How to use the dashboard
 
-Once one of the latest agent is deployed as well as the various k8s integrations setup (mostly automated with the Helm/Operator deployement), the data will start populate the dashboard.
+Once one of the latest agents is deployed as well as the various Kubernetes integrations setup (mostly automated with the Helm/Operator deployment), the data will start populating the dashboard.
 
 ## Template variables
 
@@ -22,4 +22,4 @@ Blog post upcoming, check [our latest articles meanwhile](https://www.datadoghq.
 
 # Going beyond
 
-[Setup the VPA in recommendation mode](https://www.kubecost.com/kubernetes-autoscaling/kubernetes-vpa/) and include the recommendations in this dashboard to help any team identify the right CPU and Mem request to set.
+[Setup the Vertical Pod Autoscaler in recommendation mode](https://www.kubecost.com/kubernetes-autoscaling/kubernetes-vpa/) and include the recommendations in this dashboard to help any team identify the right CPU and Mem request to set.
