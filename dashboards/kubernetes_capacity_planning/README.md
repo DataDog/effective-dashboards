@@ -4,7 +4,7 @@ The goal of this dashboard is to identify clusters with the biggest waste of res
 
 This dashboard highlights the biggest discrepancies between CPU and Mem utilization vs CPU and Mem requests.
 
-![Dashboard screenshot](/img/screenshot.png)
+![Dashboard screenshot](img/screenshot.png)
 
 # How to use the dashboard
 
