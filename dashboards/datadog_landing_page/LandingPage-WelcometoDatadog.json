@@ -1,0 +1,129 @@
+{
+    "title": "Landing Page - Welcome to Datadog",
+    "description": "## Landing Page of the Datadog Platform\n\n- Reach out to your Platform Admin if the content of the dashboard is dated\n- Review your internal Knowledge Base for more detailed guidance on settings, compliance rules and configurations",
+    "widgets": [
+        {
+            "id": 8426327934312924,
+            "definition": {
+                "type": "note",
+                "content": "![alt text](https://static.datadoghq.com/static/images/logos/_datadog_small.svg )\n \n # Onboarding journey to Datadog\n\n## 1.1 - Familiarise yourself with Datadog \n![alt text](https://imgix.datadoghq.com/img/blog/datadog-certification-program/datadog_certification_program_220819_final.png?auto=format&fit=crop&w=1110&h=620&dpr=2)\nThe **[Foundation Enablement Sessions](https://www.datadoghq.com/technical-enablement/)** are designed for users who need to broaden their knowledge of features within Datadog, familiarise with core concepts, and learn best practices across a range of Datadog products. \n\nSessions are programmed to last 60 minutes, with an initial 45 minutes of live webinar and a final 15 minutes for Q/A. \nIt's highly recommended, if you are new to the platform, to follow the sessions in order:\n1. [Datadog Overview](https://www.datadoghq.com/technical-enablement/)\n2. [Infrastructure](https://www.datadoghq.com/technical-enablement/session/infrastructure/)\n3. [Application Performance Monitoring](https://www.datadoghq.com/technical-enablement/session/apm/)\n4. [Log Management](https://www.datadoghq.com/technical-enablement/session/log-management/)\n5. [Tagging Best Practices](https://www.datadoghq.com/technical-enablement/session/tagging/)\n\n---\n## 1.2 - Hands-on labs\n\nThe **[Datadog Learning Center](https://learn.datadoghq.com/)** provides an interactive platform for learning about Datadog products and features, for users of all experience levels: \n1. [Datadog Fundamentals](https://learn.datadoghq.com/bundles/dd-fundamentals)\n2. [Log Management Fundamentals](https://learn.datadoghq.com/bundles/log-management-fundamentals)\n3. [Automation and Infrastructure as Code](https://learn.datadoghq.com/courses/dd-api-automation-iac) **(Bonus)**\n\n### Feeling like a Pro?\nLet's validate your knowledge with [Datadog Certification Program](https://www.datadoghq.com/certification/overview/). \nIt's recommended to plan the exams in the following order: \n1. [Datadog Fundamentals](https://www.datadoghq.com/pdf/Datadog_Fundamentals.pdf)\n2. [Log Management Fundamentals](https://www.datadoghq.com/pdf/Log_Management_Fundamentals.pdf)\n3. [APM and Distributed Tracing Fundamentals](https://www.datadoghq.com/pdf/APM_Distributed_Tracing_Fundamentals.pdf)\n\n--- \n## 1.3 - Continuous support during your journey\nDatadog's Public Documentation, Blog articles and Knowledge center are always available to support you during your journey with detailed instructions, in-depth technical materials and holistic guidance:  \n* [Datadog Documentation](https://docs.datadoghq.com/)\n* [API Documentation](https://docs.datadoghq.com/api/latest/)\n* [Knowledge Center](https://www.datadoghq.com/knowledge-center/)\n* [Blog](https://www.datadoghq.com/blog/)\n",
+                "background_color": "white",
+                "font_size": "14",
+                "text_align": "left",
+                "vertical_align": "top",
+                "show_tick": false,
+                "tick_pos": "50%",
+                "tick_edge": "left",
+                "has_padding": true
+            },
+            "layout": {
+                "x": 0,
+                "y": 0,
+                "width": 3,
+                "height": 16
+            }
+        },
+        {
+            "id": 2108016297624358,
+            "definition": {
+                "type": "iframe",
+                "url": "https://www.youtube.com/embed/JIdUTxwbt9A"
+            },
+            "layout": {
+                "x": 3,
+                "y": 0,
+                "width": 6,
+                "height": 5
+            }
+        },
+        {
+            "id": 8866625730732682,
+            "definition": {
+                "type": "note",
+                "content": "![alt text](https://static.datadoghq.com/static/images/logos/_datadog_small.svg )\n \n\n # {$CustomerName} Admins \n\n## 2.1 - List of Platform Admins and their role\n![alt text](https://imgix.datadoghq.com/img/blog/monitor-cilium-cni-with-datadog/cilium_part3_hero.png?auto=format&fit=crop&w=1110&h=620&dpr=2)\n- FirstName LastName | Authentication and Permissions\n- FirstName LastName | Infrastructure Monitoring\n- FirstName LastName | Log Management\n- FirstName LastName | Application Performance Monitoring\n- FirstName LastName | FinOps\n\n---\n\n## 2.2 - Need to contact your Technical Account Manager (TAM) ?\n\nYour Technical Account Manager (TAM) is the Datadog Expert that works closely with your Platform Admin team to ensure their Observability goals and objectives are achieved successfully. \n\nYou can find below some of the ways, among others, your TAM can support you during your Observability journey.\n\n\n\n## 2.2.1 - Office hours\nWhile you start deploying your components in Datadog, questions and doubts arise around the best way to deploy or use specific components. \n\nOffice hours can be scheduled with your Technical Account Manager (TAM) to address technical questions, validate implementation paths, review tickets and confirm that best practices are being adopted. \n\nOffice hours can be scheduled weekly or twice per week depending on your implementation plan and usually last 30 minutes per session. \n\n\n## 2.2.2 - Scoped Enablement Sessions\n* If you have already deployed your components like infrastructure, integrations, applications, logs etc \n* If you have already gone through the onboarding journey described in section 1 of this dashboard\n* If your needs are tight to a specific use-case\n\nYour Technical Account Manager (TAM) can support you with scoped enablement sessions based on your needs.\nThis format of enablement sessions requires planning ahead and a group of attendees in order to maximise efficiency and value.\n\n---\n\n`Please contact your Platform Admin if you need direct contact with your Technical Account Manager (TAM).` ",
+                "background_color": "white",
+                "font_size": "14",
+                "text_align": "left",
+                "vertical_align": "top",
+                "show_tick": false,
+                "tick_pos": "50%",
+                "tick_edge": "left",
+                "has_padding": true
+            },
+            "layout": {
+                "x": 9,
+                "y": 0,
+                "width": 3,
+                "height": 17
+            }
+        },
+        {
+            "id": 7401130805688044,
+            "definition": {
+                "type": "note",
+                "content": "## Need Technical Support?\n\n![alt text](https://imgix.datadoghq.com/img/blog/engineering/cheering-on-coworkers-building-culture-with-datadog-dashboards/dd_cheering_hero.png?auto=format&fit=crop&w=1110&h=620&dpr=2)\n\nOur friendly, knowledgable Support Engineers are here to help. \nYou can leverage one of the following ways to contact the Support Team: \n* [Support Portal](https://help.datadoghq.com/hc/en-us) - Create and manage your Support tickets\n* Live Chat - After logging into the Datadog web application, click the “Live Chat” button in the navigation menu to access Datadog Live Chat Support. Live chat is only available 10am - 7pm (EDT/EST), Monday through Friday.\n* Email - support@datadoghq.com\n\n---\n### Best Practices when creating tickets\n* Share with the Support Engineers **what you are trying to achieve**, **which documentation you are following** (with links) , and finally the **blocker**  you are encountering\n* Provide as much context as possible in forms of code snippets, configurations etc. This will **increase significantly** the chances of getting a solution rapidly\n* Leverage [Notebooks](notebook/list) when possible. A graph is worth a thousand words and will **save you an enormous amount of time when describing your case**\n* Provide the [Agent Flare](https://docs.datadoghq.com/agent/troubleshooting/send_a_flare/?tab=agentv6v7#pagetitle) when applicable. The Flare contains **all the required troubleshooting information** and can be linked to your case easily with only one command.",
+                "background_color": "white",
+                "font_size": "14",
+                "text_align": "left",
+                "vertical_align": "top",
+                "show_tick": false,
+                "tick_pos": "50%",
+                "tick_edge": "left",
+                "has_padding": true
+            },
+            "layout": {
+                "x": 3,
+                "y": 5,
+                "width": 3,
+                "height": 11
+            }
+        },
+        {
+            "id": 566107981471678,
+            "definition": {
+                "type": "note",
+                "content": "## How other customers are using Datadog?\n\n![alt text](https://imgix.datadoghq.com/img/blog/resolve-incidents-faster-with-insightfinder/insightfinder_hero.png?auto=format&fit=crop&w=1110&h=620&dpr=2 ) \n\nIf you are wondering how other customer are using Datadog and looking for some inspiration, detailed case studies and materials are available in the following repositories: \n\n* [Case studies](https://www.datadoghq.com/resources/#category-case-study)\n* [Ebooks](https://www.datadoghq.com/resources/#category-ebook)\n* [Cheatsheets](https://www.datadoghq.com/resources/#category-cheatsheet)\n* [Research](https://www.datadoghq.com/resources/#category-research)",
+                "background_color": "white",
+                "font_size": "14",
+                "text_align": "left",
+                "vertical_align": "top",
+                "show_tick": false,
+                "tick_pos": "50%",
+                "tick_edge": "left",
+                "has_padding": true
+            },
+            "layout": {
+                "x": 6,
+                "y": 5,
+                "width": 3,
+                "height": 6
+            }
+        },
+        {
+            "id": 7878903231268632,
+            "definition": {
+                "type": "note",
+                "content": "## Are there scripts and tools already available?\n\n![alt text](https://imgix.datadoghq.com/img/blog/best-practices-datadog-continuous-testing/datadog-continuous-testing-hero.png?auto=format&fit=crop&w=1110&h=620&dpr=2)\n\nDatadog's [Miscellany](https://github.com/DataDog/Miscellany)\nrepository contains a list of **community-based** scripts and tools that might help in automating your daily tasks. \n\n`Disclaimer: Miscellany's projects are not part of Datadog's subscription services and are provided for example purposes only.`\n",
+                "background_color": "white",
+                "font_size": "14",
+                "text_align": "left",
+                "vertical_align": "top",
+                "show_tick": false,
+                "tick_pos": "50%",
+                "tick_edge": "left",
+                "has_padding": true
+            },
+            "layout": {
+                "x": 6,
+                "y": 11,
+                "width": 3,
+                "height": 5
+            }
+        }
+    ],
+    "template_variables": [],
+    "layout_type": "ordered",
+    "notify_list": [],
+    "reflow_type": "fixed",
+    "tags": []
+}
