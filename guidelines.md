@@ -36,7 +36,7 @@ When adding a template variable to a dashboard, describe it in the dashboard des
 
 ## Groups
 
-Widget grouping allows to nicely group related widgets together, with a nice header color coded header. It is recommended to always group related widgets together (even without a header), and even to always add widgets to a group, even if they are the only widget in the group, as [that will affect how those widgets are displayed in low and high density modes](#high-density-mode).
+Widget grouping allows to nicely group related widgets together, with a nice color coded header. It is recommended to always group related widgets together (even without a header), and even to always add widgets to a group, even if they are the only widget in the group, as [that will affect how those widgets are displayed in low and high density modes](#high-density-mode).
 
 ![Example of a group in a dashboard](/assets/img/groups.png)
 
